@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloudtopia | Innovate with Cloudtopia</title>
-    <link rel="stylesheet" href="css/style.csss" />
+    <link rel="stylesheet" href="css/utlitities.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -14,5 +15,77 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1>Cloudtopia.</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+
+    <!-- showcase -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Easier Deployment</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptas, quae, quod, voluptates quibusdam voluptatibus quidem
+            voluptatum quos quia quas nesciunt. Quisquam, quae. Quisquam
+            voluptas, quae, quod, voluptates quibusdam voluptatibus quidem
+            voluptatum quos quia quas nesciunt. Quisquam, quae.
+          </p>
+          <a href="about.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Get a Quote</h2>
+          <form>
+            <div class="form-control">
+              <input type="text" placeholder="Name" required/>
+            </div>
+            <div class="form-control">
+              <input type="email" placeholder="Email" required/>
+            </div>
+            <div class="form-control">
+              <input type="text" placeholder="Phone" required/>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary" />
+          </form>
+        <img src="img/showcase.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Cloudtopia is the best cloud service provider
+        </h3>
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-users fa-3x"></i>
+            <h3>10K+</h3>
+            <p>Customers</p>
+          </div>
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>100K+</h3>
+            <p>Servers</p>
+          </div>
+          <div>
+            <i class="fas fa-cloud fa-3x"></i>
+            <h3>1000+</h3>
+            <p>Clouds</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
